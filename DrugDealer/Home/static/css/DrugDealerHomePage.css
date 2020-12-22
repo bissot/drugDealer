@@ -2,15 +2,38 @@
 	background: #e9c46a;
 	width: 20%;
 	height: 100%;
+	border-color: #e9c46a;
+	font-weight: bold;
 }
 
+.navButton:hover{
+	background: #e76f51;
+}
+
+.largeArticleButton{
+	background: #e9c46a;
+	border-color: #e9c46a; 
+	width: 50%;
+	height: 30%;
+	font-weight: bold;
+	font-size: inherit;
+}
+
+.largeArticleButton:hover{
+	background: #e76f51;
+}
 
 article{
+	display: flex;
 	background: #264653;
 	position: fixed;
 	left: 0;
 	top: 20%;
+	height: 70%;
 	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
 }
 header,footer{
 	background: #2a9d8f;
@@ -32,7 +55,7 @@ header{
 	width: 100%;  
 	justify-content: center;
 	align-items: center;
-
+	font-size: 200%;
 }	
 
 nav{
@@ -45,6 +68,7 @@ nav{
 	display: flex;
 	align-items: center;
 }
+
 
 footer{
 	position: fixed;
