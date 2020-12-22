@@ -1,0 +1,62 @@
+.navButton{
+	background: #e9c46a;
+	width: 20%;
+	height: 100%;
+}
+
+
+article{
+	background: #264653;
+	position: fixed;
+	left: 0;
+	top: 20%;
+	width: 100%;
+}
+header,footer{
+	background: #2a9d8f;
+	width: 100%;
+}
+
+body{
+	background: #264653;
+	width: 100%;
+	height: 100%;
+}
+
+header{
+	position: fixed;
+	display: flex;
+	left: 0;
+	top: 0;
+	height: 15%;
+	width: 100%;  
+	justify-content: center;
+	align-items: center;
+
+}	
+
+nav{
+	position: fixed;
+	left: 0;
+	top: 15%;
+	width: 100%;
+	height: 5%;
+	background: #e9c46a;
+	display: flex;
+	align-items: center;
+}
+
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}	
+
+
+/*Resets all of the spacing for all elements*/
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul,
+ol, li, dl, dt, dd, form, a, fieldset, input, th, td
+{
+margin: 0; padding: 0; border: 0; outline: none;
+}

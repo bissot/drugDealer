@@ -6,19 +6,36 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Drug Dealer Game</title>
+  <title>Drug Dealer</title>
   <meta name="description" content="Sample homepage for the drug dealer game">
   <meta name="author" content="Trevor Bisson">
 
-  <link rel="stylesheet" type="text/css" href="./DrugDealerHomePage.css">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/DrugDealerHomePage.css' %}">
 
 </head>
 
 <header>
-<h1>Drug Dealer Game</h1>
+<h1>Drug Dealer</h1>
 </header>
 
-<body>
+<nav>
+	<button class="navButton" href=""> Join A Game</button>
+	<button class="navButton" href=""> Create A Game</button>
+	<button class="navButton" href=""> Rules</button>
+	<button class="navButton" href=""> Learn About Us</button>
+	<button class="navButton" href=""> Other Games</button>
+</nav>
 
-</body>
+<article>
+	<span>
+		<button class="largeArticleButton" href="">Join A Game</button>
+		<button class="largeArticleButton" href="">Create A Game</button>
+	</span>
+</article>
+
+<footer>
+	<h5 class="footerLink">Learn about the Rules</h5>
+	<h5 class="footerLink">Learn about the Devs</h5>
+</footer>
+
 </html>
