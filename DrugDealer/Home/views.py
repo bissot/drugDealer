@@ -6,3 +6,6 @@ def home(request):
 
 def about(request):
     return render(request, 'DrugDealerAboutPage.html')
+
+def rules(request):
+    return render(request, 'DrugDealerRulePage.html')

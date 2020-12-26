@@ -21,7 +21,8 @@
 <nav>
 	<button class="navButton fakeLink" href=""> Join Game</button>
 	<button class="navButton fakeLink" href=""> Create Game</button>
-	<button class="navButton fakeLink" href=""> Rules</button>
+	<button class="navButton fakeLink">
+    <a href="{% url 'rules' %}"> Rules </button>
 	<button class="navButton fakeLink">
 		<a href="{% url 'aboutgame' %}"> Learn About Us </a>
 	</button>
