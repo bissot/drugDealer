@@ -1,0 +1,36 @@
+<!doctype html>
+
+{% load static %}
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Drug Dealer</title>
+  <meta name="description" content="Sample homepage for the drug dealer game">
+  <meta name="author" content="Trevor Bisson">
+
+  <link rel="stylesheet" type="text/css" href="{% static 'css/DrugDealerHomePage.css' %}">
+
+</head>
+
+<header>
+<h1><a class="fakeLink" href="{% url 'drugdealergame' %}"> Drug Dealer</a></h1>
+</header>
+
+<nav>
+	<button class="navButton fakeLink" href=""> Join Game</button>
+	<button class="navButton fakeLink" href=""> Create Game</button>
+	<button class="navButton fakeLink" href=""> Rules</button>
+	<button class="navButton fakeLink">
+		<a href="{% url 'aboutgame' %}"> Learn About Us </a>
+	</button>
+	<button class="navButton" href=""> Other Games</button>
+</nav>
+
+<article>
+		<h1>Rules!</h1>
+
+</article>
+
+</html>
