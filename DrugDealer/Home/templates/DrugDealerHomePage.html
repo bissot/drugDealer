@@ -15,14 +15,16 @@
 </head>
 
 <header>
-<h1>Drug Dealer</h1>
+<h1><a class="fakeLink" href="{% url 'drugdealergame' %}"> Drug Dealer</a></h1>
 </header>
 
 <nav>
-	<button class="navButton" href=""> Join Game</button>
-	<button class="navButton" href=""> Create Game</button>
-	<button class="navButton" href=""> Rules</button>
-	<button class="navButton" href="/about/"> Learn About Us</button>
+	<button class="navButton fakeLink" href=""> Join Game</button>
+	<button class="navButton fakeLink" href=""> Create Game</button>
+	<button class="navButton fakeLink" href=""> Rules</button>
+	<button class="navButton fakeLink">
+		<a href="{% url 'aboutgame' %}"> Learn About Us </a>
+	</button>
 	<button class="navButton" href=""> Other Games</button>
 </nav>
 

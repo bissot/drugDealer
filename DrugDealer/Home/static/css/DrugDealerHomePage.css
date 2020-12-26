@@ -23,6 +23,11 @@
 	background: #e76f51;
 }
 
+.fakeLink:visted{
+	text-decoration-color: black;
+	border-color: black;
+}
+
 article{
 	display: flex;
 	background: #264653;
