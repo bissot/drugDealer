@@ -24,8 +24,13 @@
 }
 
 .fakeLink:visted{
-	text-decoration-color: black;
+	color: black;
 	border-color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none; /* no underline */
 }
 
 article{
