@@ -6,4 +6,4 @@ How to run on localhost.
 
 Run command: 
 
-Open Google Chrome, go to localhost:8000
+Open any web browser, go to localhost:8000
