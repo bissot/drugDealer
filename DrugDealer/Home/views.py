@@ -12,3 +12,11 @@ def about(request):
 #render for the rules page
 def rules(request):
     return render(request, 'DrugDealerRulePage.html')
+
+#render for a game
+def lobby(request,gameroom_code):
+	return HttpResponse("your lobby code %s" % gameroom_code)
+
+#render for a game
+def game(request,gameroom_code):
+	return HttpResponse("your game code %s" % gameroom_code)
